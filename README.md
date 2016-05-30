@@ -1,12 +1,12 @@
 # conventions
 Git, programming and Editor conventions to follow
 
-### Git
+### 1. Git
 The whole point of using a version control system is to ideally work on different versions of
 the same codebase or one may call them as different branches. While we collaborate code it is
 important to properly follow some conventions.
 
-#### Mandatory Branches in Git
+#### 1.1 Mandatory Branches in Git
 Always remember that while using a service like Github or an equivalent of it, it is generally
 suggestible to have two compulsory branches that are part of your code base.
 
@@ -23,12 +23,12 @@ Also it is important to have a branch named `production` which can be an equival
 piece of code that which resides in your codebase. Apart from considering this as a backup branch one
 can push code to this branch after a succesfull production of the application.
 
-### Programming
+### 2. Programming
 Given the choice it is recommended to use text editor programs or text editor's that are light weight
 for writing code. So in order to go ahead there are particular norms that one should take into
 consideration.
 
-#### Javasript
+#### 2.1 Javasript
 
 Code conventions :
 
@@ -62,5 +62,5 @@ Code conventions :
             fun = function(){};
 ```
 
-### Python
+### 2.2 Python
 Coming Soon
