@@ -22,3 +22,45 @@ to imply that `master` branch can be considered your parent branch of your proje
 Also it is important to have a branch named `production` which can be an equivalent of latest stable
 piece of code that which resides in your codebase. Apart from considering this as a backup branch one
 can push code to this branch after a succesfull production of the application.
+
+### Programming
+Given the choice it is recommended to use text editor programs or text editor's that are light weight
+for writing code. So in order to go ahead there are particular norms that one should take into
+consideration.
+
+#### Javasript
+
+Code conventions :
+
+```javascript
+        // bad
+        var a = "string";
+        var b = 23;
+        var c = true;
+
+        // good
+        var a = "string",
+            b = 23,
+            c = true;
+
+        // bad
+        var arr = new Array();
+        var str = new String();
+        var num = new Number();
+        var boo = new Boolean();
+        var obj = new Object();
+        var reg = new RegExp();
+        var fun = new function();
+
+        // good
+        var arr = [],
+            str = "",
+            num = 0,
+            boo = false,
+            obj = {},
+            reg = /()/,
+            fun = function(){};
+```
+
+### Python
+Coming Soon
